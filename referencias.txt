@@ -1,0 +1,27 @@
+ransomware analysis:
+https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-019-0097-9
+https://www.youtube.com/watch?v=rRv5vTctePE
+https://github.com/mauri870/ransomware
+
+
+
+estado del arte:
+https://www.semanticscholar.org/paper/Output-Prediction-Attacks-on-SPN-Block-Ciphers-Deep-Kimura-Emura/5a68329606fc946517e0c428f19bb8c4b4a3ce20
+https://eprint.iacr.org/2021/401.pdf
+
+
+neural network:
+https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/
+https://www.tensorflow.org/text/tutorials/text_generation
+https://www.tensorflow.org/tutorials/text/word2vec
+https://github.com/tensorflow/text/blob/master/docs/tutorials/text_generation.ipynb
+https://www.tensorflow.org/addons/tutorials/networks_seq2seq_nmt
+https://towardsdatascience.com/sequence-to-sequence-models-from-rnn-to-transformers-e24097069639
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+https://machinelearningmastery.com/define-encoder-decoder-sequence-sequence-model-neural-machine-translation-keras/
+https://towardsdatascience.com/generating-text-with-tensorflow-2-0-6a65c7bdc568
+https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+https://towardsdatascience.com/generating-text-with-recurrent-neural-networks-based-on-the-work-of-f-pessoa-1e804d88692d
+
+
+https://la.mathworks.com/help/deeplearning/ug/sequence-to-sequence-regression-using-deep-learning.html

@@ -25,3 +25,9 @@ https://towardsdatascience.com/generating-text-with-recurrent-neural-networks-ba
 
 
 https://la.mathworks.com/help/deeplearning/ug/sequence-to-sequence-regression-using-deep-learning.html
+
+
+
+
+INSTALLING
+https://golangdocs.com/install-go-windows#:~:text=%20Installing%20GoLang%20%201%20Download%20go%20for,check%20if%20GOPATH%20is%20set%20up...%20More%20

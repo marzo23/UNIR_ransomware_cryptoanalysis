@@ -84,7 +84,39 @@ model.add(tf.keras.layers.Dense(256))
 checkpoint_callback=tf.keras.callbacks.ModelCheckpoint(filepath='.\\models\\ckpt', save_weights_only=True, save_best_only=True)
 model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), metrics=['sparse_categorical_accuracy'])
 
-history = model.fit(tst_full, epochs=30, callbacks=[checkpoint_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
+history = model.fit(x_train, y_train, epochs=30, callbacks=[checkpoint_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
 
-model.compile(optimizer='sgd', loss='mse')
-history = model.fit(x, y, batch_size=32, epochs=1)
+
+def model_history(history):
+    history_dict = dict()
+    for k, v in history.history.items():
+        history_dict[k] = [float(val) for val in history.history[k]]
+    return history_dict
+
+
+history_dict = model_history(history)
+
+def plot_history(history_dict):
+    plt.figure(figsize=(15,5))
+    plt.subplot(121)
+    plt.plot(history_dict['sparse_categorical_accuracy'])
+    plt.title('Accuracy vs. epochs')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoch')
+    plt.xticks(np.arange(len(history_dict['sparse_categorical_accuracy'])))
+    ax = plt.gca()
+    ax.set_xticklabels(1 + np.arange(len(history_dict['sparse_categorical_accuracy'])))
+    plt.legend(['Training', 'Validation'], loc='lower right')
+    plt.subplot(122)
+    plt.plot(history_dict['loss'])
+    plt.title('Loss vs. epochs')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.xticks(np.arange(len(history_dict['sparse_categorical_accuracy'])))
+    ax = plt.gca()
+    ax.set_xticklabels(1 + np.arange(len(history_dict['sparse_categorical_accuracy'])))
+    plt.legend(['Training', 'Validation'], loc='upper right')
+    plt.show() 
+    
+
+plot_history(history_dict)

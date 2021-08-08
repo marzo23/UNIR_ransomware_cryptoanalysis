@@ -1,0 +1,137 @@
+    1  tar -C /usr/local -xzf go1.16.6.linux-amd64.tar.gz  
+    2  export PATH=$PATH:/usr/local/go/bin
+    3  go version
+    4  git clone https://github.com/abhir98/ransomware.git
+    5  apt-get update
+    6  apt-get install git
+    7  unzip ransomware-main.zip 
+    8  cd ransomware-main
+    9  export GOPATH=/usr/local/go
+   10  export GOROOT=/usr/local/go
+   11  mkdir ../gopath
+   12  export GOROOT=/home/debian/Downloads/gopath/
+   13  export PATH=$PATH:$GOPATH/bin
+   14  make deps
+   15  eject /media/cdrom
+   16  fuser -k /media/cdrom
+   17  eject /media/cdrom
+   18  sudo apt-get install build-essential
+   19  Just remove the cdrom entry from the sources.list file. This can be done easily:
+   20  sudo sed -i '/cdrom/d' /etc/apt/sources.list
+   21  grep -v '#' /etc/apt/sources.list
+   22  sudo apt-get install build-essential
+   23  make deps
+   24  make
+   25  make deps
+   26  export GOROOT=/usr/local/go
+   27  export GOPATH=/home/debian/Downloads/gopath/
+   28  make deps
+   29  sudo apt-get install git
+   30  make deps
+   31  make
+   32  go get github.com/jteeuwen/go-bindata
+   33  cd $GOPATH/src/github.com/jteeuwen/go-bindata/go-bindata
+   34  go build
+   35  go build
+   36  ls
+   37  ls -ltr
+   38  go get github.com/jteeuwen/go-bindata
+   39  s
+   40  ls
+   41  cd /home/debian/Downloads/ransomware-main
+   42  make
+   43  make
+   44  make dep
+   45  make deps
+   46  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   47  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   48  rm -rf /home/debian/Downloads/gopath/src/github.com/jteeuwen/
+   49  make deps
+   50  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   51  ls -ltr /home/debian/Downloads/gopath/src/github.com/jteeuwen/go-bindata/
+   52  ls -ltr /home/debian/Downloads/gopath/src/github.com/jteeuwen/go-bindata/go-bindata/
+   53  go build
+   54  cd /home/debian/Downloads/gopath/src/github.com/jteeuwen/go-bindata
+   55  go build
+   56  cd /home/debian/Downloads/gopath/src/github.com/jteeuwen/go-bindata/go-bindata/
+   57  go build
+   58  unset GO111MODULE
+   59  go build
+   60  export GO111MODULE=auto
+   61  go build
+   62  # to sys use
+   63  ln -s "${GOPATH}/src/github.com/jteeuwen/go-bindata/go-bindata/go-bindata" /usr/bin/go-bindata
+   64  # to cur use
+   65  mkdir bin
+   66  ln -s "${GOPATH}/src/github.com/jteeuwen/go-bindata/go-bindata/go-bindata" bin/go-bindata
+   67  ln -s /usr/bin/go-bindata bin/go-bindata
+   68  cd -
+   69  make
+   70  cd /home/debian/Downloads/ransomware-main
+   71  make
+   72  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   73  go get github.com/akavel/rsrc
+   74  cd ..
+   75  mkdir tst
+   76  wget https://proxy.golang.org/github.com/akavel/rsrc/@v/list
+   77  history >> HISTORY1.txt
+   78  vim HISTORY1.txt 
+   79  vi HISTORY1.txt 
+   80  go get github.com/akavel/rsrc
+   81  cd ransomware-main
+   82  make
+   83  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   84  ls
+   85  ls bin
+   86  ls -ltr /home/debian/Downloads/gopath/src/github.com/
+   87  ls -ltr /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/
+   88  cd /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/
+   89  go build
+   90  cd rsrc
+   91  go build
+   92  cd /home/debian/Downloads/ransomware-main
+   93  make
+   94  ls -ltr /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/
+   95  ls -ltr /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc
+   96  /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc/rsrc.go -manifest ransomware.manifest -ico icon.ico -o /home/debian/Downloads/ransomware-main/build/ransomware/ransomware.syso
+   97  go /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc/rsrc.go -manifest ransomware.manifest -ico icon.ico -o /home/debian/Downloads/ransomware-main/build/ransomware/ransomware.syso
+   98  ls -ltr /home/debian/Downloads/gopath/src/github.com/jteeuwen/go-bindata/go-bindata/
+   99  rm -rf /home/debian/Downloads/gopath/src/github.com/akavel/
+  100  go get github.com/akavel/rsrc
+  101  ls -ltr /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc
+  102  make deps
+  103  ls -ltr /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc
+  104  cd /home/debian/Downloads/gopath/src/github.com/akavel/rsrc/rsrc
+  105  go build
+  106  ls
+  107  export GO111MODULE=auto
+  108  go build
+  109  ls
+  110  cd ..
+  111  find . -name *.exe
+  112  make
+  113  ls
+  114  cat README.txt 
+  115  cd /home/debian/Downloads/ransomware-main
+  116  apt-get install -y golang-github-akavel-rsrc-dev
+  117  make
+  118  find . -name *.ym
+  119  find . -name *.yml
+  120  find . -name *yml
+  121  find . -name *yaml
+  122  cd ..
+  123  rm -rf ransomware-main*
+  124  git clone https://github.com/mauri870/ransomware.git
+  125  cd ransomware/
+  126  make deps
+  127  make
+  128  vi make
+  129  vi Makefile 
+  130  vi Makefile 
+  131  cp Makefile ..
+  132  vi Makefile 
+  133  vi Makefile 
+  134  nano Makefile 
+  135  ls /home/debian/Downloads/ransomware.syso
+  136  make
+  137  history >> ../HISTORY2.txt 

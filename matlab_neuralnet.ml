@@ -31,17 +31,6 @@ end
 XTrain1 = XTrain1(idx);
 YTrain1 = YTrain1(idx);
 
-class(XTrain1)
-class(YTrain1)
-class(YTrain1{1})
-class(XTrain1{1})
-%class(YTrain1{1}{1})
-%class(XTrain1{1}{1})
-%class(YTrain1{1}{1}{1})
-%class(XTrain1{1}{1}{1})
-
-
-
 
 
 miniBatchSize = 20;
